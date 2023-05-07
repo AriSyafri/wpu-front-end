@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Display</title>
+        <!-- 
+            kita akan review dulu tentang html
+            tag HTML digunakan untuk memberikan 'maksud'/'arti' pada sebuah konten (p untuk paragraf, h1 untuk heading utama dll)
+
+            tag <div> dan <span> tidak memiliki 'arti'apapun, keduanya digunakan untuk mengelompokan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut
+        -->
+
+        <!-- 
+            - div belum ada arti sampai ada style css
+            - span digunakan jika untuk membedakan
+        -->
+
+        <style>
+            .navigasi {
+                background-color: pink;
+            }
+            .main{
+                background-color: lightcoral;
+            }
+            .main span{
+                background-color: yellow;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- biasanya ngoding melakukan pengelompokan dengan div agar mudah -->
+        <div class="header">
+            <h1>Selamat Datang Di Website Kami</h1>
+        </div>
+
+        <div class="navigasi">
+            <h2>Daftar Link</h2>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </div>
+        
+        <div class="main">
+            <h2>Judul Artikel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repudiandae dicta quia laborum, amet, aspernatur beatae ad nobis iusto non reprehenderit <span>reiciendis tempora dolore </span>fugiat eaque ea sed. Vitae, commodi?</p>
+    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti in ullam a cupiditate nesciunt ea praesentium culpa officia, at exercitationem porro blanditiis! Voluptas neque obcaecati tempora cum excepturi quo accusantium, nam voluptatum ut, quidem suscipit cupiditate consequatur tempore nulla praesentium, natus voluptatem! Eos blanditiis non ullam quaerat in corporis explicabo. Blanditiis maiores sit dolorem officia adipisci veritatis.</p>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2015. Web Programming UNPAS</p>
+        </div>
+    </body>
+</html>

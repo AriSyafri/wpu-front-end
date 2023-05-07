@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dimensi & Overflow</title>
+    </head>
+    <!-- 
+        CSS Overflow : 
+        properti css yang akan digunakan mengatur perilaku elemen yang keluar dari parent nya
+
+        overflow :
+        - visible (value default : konten yang keluar dari parent ditampilkan)
+        - auto (css otomatis menambahkan scroll jika teks lebih, dan jika teks kurang parent maka parent ngisi default)
+        - hidden (konten disembunyikan)
+        - scroll (sama kaya auto tapi pas teks sedikit masih ada scroll)
+    -->
+    <style>
+        /* contoh bagian child melebihi parent */
+        .OverflowVisible {
+            width : 200px;
+            height : 200px;
+            background-color: palevioletred;
+            /* ini bisa gausah pake juga overflownya */
+            overflow: visible; 
+        }
+        .auto1 {
+            width : 200px;
+            height : 200px;
+            background-color: lime;
+            overflow: auto;
+        }
+        .auto2 {
+            width : 200px;
+            height : 200px;
+            background-color: purple;
+            overflow: auto;
+        }
+        .HiddenOflow {
+            width : 200px;
+            height : 200px;
+            background-color: red;
+            overflow: hidden;
+        }
+        .scrollOvlow1 {
+            width : 200px;
+            height : 200px;
+            background-color: palevioletred;
+            overflow: scroll;
+        }
+        .scrollOvlow2 {
+            width : 200px;
+            height : 200px;
+            background-color: palevioletred;
+            overflow: scroll;
+        }
+
+    </style>
+    <body>
+        <div class="OverflowVisible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam necessitatibus distinctio labore possimus maxime, repudiandae architecto velit voluptatibus recusandae quibusdam dicta sit perferendis? Obcaecati vero ad saepe qui rerum sit delectus architecto deserunt nostrum odio nobis pariatur fugiat animi, laudantium quod id nisi labore deleniti impedit corporis? Ipsum ipsam dignissimos nobis possimus.</div>
+        <br /><br /><br /><br /><hr />
+
+        <div class="auto1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam necessitatibus distinctio labore possimus maxime, repudiandae architecto velit voluptatibus recusandae quibusdam dicta sit perferendis? Obcaecati vero ad saepe qui rerum sit delectus architecto deserunt nostrum odio nobis pariatur fugiat animi, laudantium quod id nisi labore deleniti impedit corporis? Ipsum ipsam dignissimos nobis possimus.</div>
+        <br /><br /><br /><br /><hr />
+
+        <!-- keadaan kedua -->
+        <div class="auto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam necessitatibus distinctio labore possimus maxime,</div>
+        <br /><br /><br /><br /><hr />
+
+        <div class="HiddenOflow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam necessitatibus distinctio labore possimus maxime, repudiandae architecto velit voluptatibus recusandae quibusdam dicta sit perferendis? Obcaecati vero ad  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos repudiandae laudantium nesciunt fuga itaque. Quis, nemo aut cumque quam expedita, sunt omnis, labore ipsum voluptatibus magnam reiciendis sint eius non! Ea eveniet fugit alias, commodi culpa dolore architecto minima distinctio facilis optio, fuga iste accusamus magnam.saepe qui rerum sit delectus architecto deserunt nostrum odio nobis pariatur fugiat animi, laudantium quod id nisi labore deleniti impedit corporis? Ipsum ipsam dignissimos nobis possimus.</div>
+        <br /><br /><br /><br /><hr />
+
+        <div class="scrollOvlow1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam necessitatibus distinctio labore possimus maxime, repudiandae architecto velit voluptatibus recusandae quibusdam dicta sit perferendis? Obcaecati vero ad  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos repudiandae laudantium nesciunt fuga itaque. Quis, nemo aut cumque quam expedita, sunt omnis, labore ipsum voluptatibus magnam reiciendis sint eius non! Ea eveniet fugit alias, commodi culpa dolore architecto minima distinctio facilis optio, fuga iste accusamus magnam.saepe qui rerum sit delectus architecto deserunt nostrum odio nobis pariatur fugiat animi, laudantium quod id nisi labore deleniti impedit corporis? Ipsum ipsam dignissimos nobis possimus.</div>
+        <br /><br /><br /><br /><hr />
+
+        <div class="scrollOvlow2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam necessitatibus distinctio labore possimus maxime.</div>
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+/* 
+color = memberi warna pada tulisan 
+text-align = mengatur format paragraf/text
+text-indent = memberi indentasi pada paragraf/text (spasi awal ke ujung barisan)
+text-transform = mengubah huruf menjadi huruf besar,kecil/kapital
+letter-spacing = mengatur spasi antar huruf
+word-spacing = mengatur spasi antar kata
+*/
+
+/* pemberian color dapat berupa nama warna, hexadesimal, dan rgb */
+
+/* text-decoration: 
+none : 
+underline: garis bawah tulisan
+overline: garis di atas tulisan
+line-through: garis di tengah tulisan
+
+text-transform: 
+none
+lowercase : semua tekss kecil
+uppercase : semua teks kapital
+capitalize : awal kata menjadi kapital
+
+
+letter-spacing : mengatur jarak antar huruf
+word-spacing : mengatur jarak antar kata
+*/
+
+h1 {
+    font-size: 150px;
+    /* ini dengan nama warna */
+    color:blue;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+/* text-align
+left : rata kiri
+right : rata kanan
+center : rata tengah
+justify : nempel kiri dan kanan
+ */
+p {
+    /* text-align: justify; hapus ini buat make text align ganti text indent*/
+    text-indent: 100px;
+    letter-spacing: 1px;
+}
+a {text-decoration: none;}

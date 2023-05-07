@@ -1,0 +1,46 @@
+.part1 {
+    width: 190px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    padding: 50px;
+    
+    /* 
+    cara singkat : 
+    border: width style color 
+    
+    style :
+    - solid
+    - dotted
+    - dashed
+    - double
+    */
+    border: 5px double black; /*border : tebal jenis warna*/
+
+}
+
+.part2 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    padding: 50px;
+    /* cara panjang border */
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* pemakaian border juga dapat digunakan untuk kusus kana kiri dll misal : */
+.part3 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    padding: 50px;
+    /* penggunaan campuran seperti border kanan saja atau kiri saja */
+    border-left: 5px solid black;
+    border-right: 10px dashed blue;
+    border-top: 20px dotted yellowgreen;
+
+}

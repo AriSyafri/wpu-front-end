@@ -1,0 +1,18 @@
+/*
+operator background ada :
+background-color = mengatur warna pada background
+background-image = mengatur gambar yang akan digunakan pada background
+background-position = mengatur posisi gambar pada background
+background-repeat = mengatur jenis pengulangan gambar pada background
+*/
+
+/*  Download pattern / pola untuk background halaman
+http://subtlepatterns.com */
+
+/* shorthandnya
+background: color url() position repeat;
+*/
+
+body {
+    background: blueviolet url(gambar/img_tree.png) no-repeat top center;
+}

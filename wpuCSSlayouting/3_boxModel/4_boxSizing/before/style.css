@@ -1,0 +1,23 @@
+div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box; /*ini membuat lebar dari kotak 600 berapapun border dan padding yang kita kasih
+    
+    box sizing ini sangat berguna apalagi nanti ketika belajar float
+    */
+}
+
+.satu {
+    background-color: royalblue;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.dua {
+    background-color: lightgreen;
+    padding: 30px;
+    border: 10px dashed orange;
+    /* jika begini biar seimbang harus :
+    600-(2*30)-(2*10)=520px
+    */
+}

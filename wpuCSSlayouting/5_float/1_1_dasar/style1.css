@@ -1,0 +1,17 @@
+/* ini masih disebut normal flow elemen selanjutnya kebawah*/
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color: limegreen;
+}
+.tiga {
+    background-color: lightskyblue;
+}

@@ -1,0 +1,26 @@
+/* pada css */
+/* <!-- font-family : mengatur jenis font yang akan digunakan -->
+<!-- font-size : mengatur ukuran font -->
+<!-- font-weight : mengatur ketebalan font -->
+<!-- font-variant : mengubah font menjadi small caps () -->
+<!-- font-style : mengubah font menjadi berdecak miring -->
+<!-- line-height : mengatur spasi antar baris --> */
+
+
+
+h1 {
+    /* font yang pertama dicari arial dulu kalau gaada lanjur sampe akhir namanya generic font */
+    
+    font-family: arial,verdana,sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-style: italic;
+    /* sebenarnya italic itu bercetak miring berbeda dengan oblique yang teks menjadi miring */
+}
+p {
+    font-family: georgis,serif;
+    font-style: oblique;
+    /* mengatur jarak antar spasi */
+    line-height: 20px;
+}

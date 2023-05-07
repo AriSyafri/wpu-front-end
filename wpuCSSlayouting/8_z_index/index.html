@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Latihan z-index</title>
+        <style>
+            div {
+                width: 200px;
+                height: 200px;     
+                /* ingat absolute berarti memindahkan dimensi serta menghilangkan posisi yang diisi sebelumnya */
+                position: absolute;     
+            }
+
+            .satu {
+                background-color: salmon;
+                /* z-index digunakan mengatur tumpukan dari elemen yang non statik*/
+                /* semakin besar angka z index semakin depan atau semakin maju ingat 3d xyz*/
+                /* otomatis ini paling depan */
+                /* bisa angka 1,2,3,juga */
+                z-index: 9999;
+            }
+            .dua {
+                background-color: lightgreen;
+                top: 100px;
+                left: 100px;
+                /* biar paling belkang */
+                z-index: -9999;
+            }
+            .tiga {
+                background-color: royalblue;
+                top: 200px;
+                left: 200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+    </body>
+</html>

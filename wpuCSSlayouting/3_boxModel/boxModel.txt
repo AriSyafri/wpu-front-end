@@ -1,0 +1,30 @@
+CSS Layout Box Model
+
+
+catatan penting sebelum mulai : biasanya penggunaan height dan width kita cukup atur width saja karena jiga konten melebihi panjang height kita harus mengatur kembali height dengan overflow lagi jadi kurang direkomendasikan
+
+- setiap elemen di halaman berada di dalam sebuah box (kotak)
+- kita bisa mengatur ukuran dan posisi kotak tersebut
+- kita bisa memberi warna / gambar sebagai background kotak tersebut
+
+"
+CSS box model mendefinisikan 'kotak' yang dihasilkan oleh sebuah elemen, lalu menampilkannya sesuai dengan format visualnya
+"
+
+komponen : 
+CSS box model terderi dari margin, border, padding, dan content.
+
+margin  -> area transparan di sekitar kotak (diluar border) {margin melakukan perbandingan atas bawah atau kanan kiri yang paling besar itu yang dipake}
+
+
+padding -> area transparan di dalam kotak (antara content dan border){padding melakukan penambahan kanan kiri atau atas bawah}
+
+border  -> batas di sekeliling content dan padding {sama seperti padding menambahkan}
+penghitungan :
+total dimensi = width/height + padding + border(bisa solusi dengan box sizing agar langsung hitung tanpa susah2 kalkulasi)
+
+content -> konten sebenarnya di dalam box, bisa berupa teks atau gambar
+
+tambahan : 
+ *) box sizing untuk mengdefault kan ukuran 
+ *) reset teknikn untuk mengatur ulang nilai2 default terutama margin dan padding

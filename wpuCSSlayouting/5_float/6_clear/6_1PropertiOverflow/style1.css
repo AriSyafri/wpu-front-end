@@ -1,0 +1,13 @@
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    /* penggunaan properti overflow */
+    overflow: auto; /*overflow akan mengikuti tingginya*/
+}
+
+img {
+    float: right;
+    margin : 10px;
+}

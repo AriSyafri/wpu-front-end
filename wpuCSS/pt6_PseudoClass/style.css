@@ -1,0 +1,59 @@
+/* 
+pseudo-class : adalah kelas semu yang dimiliki oleh sebuah elemen html,yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari eleman tersebut
+ */
+/* pseudo-class terbagi bebrapa tipe diantaranya : */
+/* pseudo-class yang berhubungan dengan link :
+    :link (style default pada sebuah link (a yang memiliki href))
+    :hover (style ketika kursor mouse berada diatas sebuah link/ elemen)
+    :active (style ketika sebuah link di klik (keadaan aktif))
+    :visited (style ketika link sdah pernah dikunjungi sebelumnya (menggukan browser yang sama))
+*/
+.hello:link {
+    /* :link bekerja jika itu link */
+    color: orange;
+}
+
+.hello:hover {
+    color: pink;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style:italic;
+}
+
+.hello:visited{
+    color:black;
+}
+
+/* 
+pseudo-class yang berhubungan dengan posisi elemen
+:first-child (memilih elemen pertama dari sebuah parent(elemen pembungkusnya))
+:last-child (memilih elemen terakhir dari sebuah parent (eleman pembungkusnya))
+:nth-child(n) (memilih elemen ke-n dari sebuah parent (elemen pembungkusnya). n bisa berarti urutan (1),(2),.. atau pola urutan (1),(2),.. atau pola (2n),(3n+2),(4n-1) atau ganjildan genap (even) & (odd)
+*/
+li:first-child a {
+    /* li adalah child dari ul */
+    color: green;
+}
+
+li:last-child a {
+    /* li adalah child dari ul */
+    color: green;
+}
+
+li:nth-child(3n) a {
+    /* untuk nth pake parameter */
+    color: cyan;
+}
+
+
+
+/* pseudo class yang berhubungan dengan yang lain salah satunya paragraf 
+:first-of-type (memilih elemen pertama dari sebuah jenis/tipe tag)
+:last-of-type (memilih elemen terakhir dari sebuah jenis / tipe tag)
+*/
+p:first-of-type {
+    color: red;
+}

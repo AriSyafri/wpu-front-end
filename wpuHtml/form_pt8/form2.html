@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- form = memberikan data input pada user -->
+    <title>form2</title>
+  </head>
+  <body>
+    <form>
+      <!-- for dan id harus sama agar singkron -->
+      <!-- label untuk pemberian nama/ label -->
+
+      <!-- karena type text maka menghasilkan text -->
+      <label for="username">username : </label>
+      <input type="text" id="username" />
+      <br />
+
+      <!-- karena type password maka jadi terhidden -->
+      <label for="password">password : </label>
+      <input type="password" id="password" />
+      <br />
+
+      <!-- ini radio tergabung -->
+      <input type="radio" id="pria" name="jeniskelamin" /><label for="pria">pria</label> <input type="radio" id="wanita" name="jeniskelamin" /><label for="wanita">wanita</label>
+      <br />
+      <!-- jika memilih lebih dari satu jangan menggunakan radio tetapi checkbox -->
+      <input type="checkbox" id="menyanyi" /><label for="menyanyi">menyanyi</label> <input type="checkbox" id="olahraga" /><label for="olahraga">olahraga</label> <input type="checkbox" id="ngoding" /><label for="ngoding">ngoding</label>
+      <br />
+
+
+      <!-- text area digunakan untuk memasukan tesk tetapi lebih kompleks atau banyak dari input -->
+      <textarea></textarea>
+      <br>
+
+
+
+      <!-- combo box dropdown -->
+    <select>
+        <option>Bandung</option>
+        <option>Yogyakarta</option>
+        <option>Jakarta</option>
+    </select>
+
+    <br>
+
+      <!-- button -->
+      <!-- submit pengumpulan data -->
+      <!-- reset menghapus semua data -->
+      <!-- button memberi fungsi spesifik -->
+      <!-- type submit kurang direkomendasikan karena suda ada elemen button -->
+      <!-- ini direkomendasikan menggunakan tag button bukan input -->
+      <button type="submit">kirim</button>
+      <hr><hr><hr>
+
+    </table>
+
+
+
+    </form>
+  </body>
+</html>

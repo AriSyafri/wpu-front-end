@@ -1,0 +1,2 @@
+sekarang kita akan menjelaskan penggunaan lain dari position (top,left,bottom,right)
+

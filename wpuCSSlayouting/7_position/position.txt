@@ -1,0 +1,13 @@
+
+properti position memungkinkan kita memindahkan elemen tanpa mempengaruhi elemen di sekitarnya
+
+value position : 
+- static
+- relative
+- absolute
+- fixed
+
+note : 
+- jika kita tidak memberikan nilai pada pasition defaultnya adalah static
+- menggunakan position selain static (non-static), akan membuat sebuah elemen menjadi seolah oleh berbeda dimensi dari elemen lainnya
+- elemen yang diberi position selain static dapat menggunakan properti top,left,bottom, dan right untuk mengatur posisinya

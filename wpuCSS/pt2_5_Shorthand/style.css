@@ -1,0 +1,9 @@
+
+body {
+    /* dengan cara disingkat */
+    /* font: (font tyle)italic (font-variant)normal (font-height)bold (font-size)16px / (line-height)18px (font-family)helvetica,arial, sans-serif; */
+
+    /* font: italic normal bold (wajib)16px/18px (wajib)helvetica,arial, sans-serif; {sisa optional}*/
+
+    font: italic normal bold 16px/18px helvetica,arial, sans-serif;
+}

@@ -1,0 +1,31 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 50px auto; /* value pertama atas & bawah, value kedua kanan dan kiri*/
+    
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue; 
+    margin: 50px 100px;
+    
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    margin: 30px 50px 40px;
+    /* value pertama atas,value kedua kanan & kiri, value ketiga bawah*/
+    
+}  
+.empat {
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+    margin: 10px 20px 30px 40px;
+    /* margin : atas kanan bawah kiri */
+}

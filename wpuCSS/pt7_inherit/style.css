@@ -1,0 +1,22 @@
+/* inheritance adalah sebuah elemen yang mewarisi beberapa nilai dan properti yang dimilliki oleh elemen parent-nya */
+body {
+    font-family: arial;
+    color: darkgrey;
+}
+
+/* bagian link karena bukan family gabisa 1 warna sama body jadi make inheritance (pewarisan) */
+/* karena ini link jadi terwariskan */
+a { color: inherit;}
+
+/* 
+properti yang biasanya terwariskan 
+color
+font
+letter-spacing
+line-height
+list-style
+text-indent
+text-transform
+visibility
+white-space
+*/

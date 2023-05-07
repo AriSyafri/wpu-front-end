@@ -1,0 +1,12 @@
+karena dalam berapa kasus collpase atau tidak sesuai maka kita dapat menghentikan / membersihkan float dengan
+
+- menggunakan property overflow
+- menggunakan <div> kosong
+- menggunakan teknik micro clearfix
+
+namun cara yang baik adalah clear
+berfungsi menghentikan / membersikan float
+- left
+- right
+- both
+(teknik ini menggunakan <div> kosong)
