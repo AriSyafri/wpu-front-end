@@ -1,0 +1,60 @@
+.container {
+    width: 600px;
+    height: 150px; 
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    
+    /* flex direction untuk urutan menampilkan div */
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+
+    /* flex wrap untuk kontainer turun kebawah */
+    /* flex-wrap: nowrap | wrap | wrap-reverse; */
+    flex-wrap: wrap;
+    /* justify content mengatur rata konten  */
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+    /* justify-content: center; */
+
+    /* align-items: flex-start | flex-end | center | stretch | baseline; */
+    /* mengatur perilaku penjajaran items terhadap cross axis */
+    align-items: flex-start;
+
+    /* align-content */
+    /* mengatur jarak antar items terhadap corss axis (hanya berfungsi ketika items lebih dari 1 baris) */
+    /* align-content: flex-start | flex-end | center | space-between | space-around; */
+    /* align-content: center; */
+}
+
+.container div {
+    background-color: rgb(19, 133, 255);
+    margin: 2px;
+    flex: 1;
+
+}
+
+/* .container div.tiga {
+    font-size: 60px;
+}
+
+.container div.empat {
+    font-size: 70px;
+} */
+
+
+/* mengatur urutan */
+/* .satu { order : 4;}
+.dua { order : 2;}
+.tiga { order : 3;}
+.empat { order : 1;} */
+
+/* mengatur isi konten */
+/* .container div.dua {flex: 3;}
+.container div.tiga {flex: 2;} */
+
+.container div.dua {
+    flex: 3;
+    align-self: center;
+}
+.container div.tiga {flex: 2;}
