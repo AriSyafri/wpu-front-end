@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: rgb(180, 78, 232);
+    justify-content: space-around;
+    padding: 20px 0;
+    color: rgb(234, 192, 255);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    /* background-color: black; */
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(234, 192, 255);
+    text-decoration: none;
+}
+
